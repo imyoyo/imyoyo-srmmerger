@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.imyoyo</groupId>
 	<artifactId>srmmerger</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>imyoyo-srmmerger</name>
 	<description>Source Merger for TopCoder SRM</description>
 
@@ -28,28 +28,37 @@
 	</build>
 
 	<dependencies>
-	
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.5</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>net.imyoyo</groupId>
 			<artifactId>preprocessor</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-			<scope>runtime</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.topcoder</groupId>
 			<artifactId>contest-applet</artifactId>
 			<version>1.0</version>
-			<scope>compile</scope>
 		</dependency>
-		
+
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>imyoyo-nexus</id>
+			<url>http://localhost:8080/nexus-webapp-1.9.2.4/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>imyoyo-nexus</id>
+			<url>http://localhost:8080/nexus-webapp-1.9.2.4/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
