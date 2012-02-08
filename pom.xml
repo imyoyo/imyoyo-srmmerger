@@ -47,7 +47,7 @@
 			<groupId>com.topcoder</groupId>
 			<artifactId>contest-applet</artifactId>
 			<version>1.0</version>
-			<scope>runtime</scope>
+			<scope>compile</scope>
 		</dependency>
 		
 	</dependencies>
