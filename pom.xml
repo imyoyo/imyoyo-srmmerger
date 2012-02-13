@@ -39,26 +39,15 @@
 		<dependency>
 			<groupId>net.imyoyo</groupId>
 			<artifactId>preprocessor</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.topcoder</groupId>
+			<groupId>net.imyoyo.thirdparty</groupId>
 			<artifactId>contest-applet</artifactId>
 			<version>1.0</version>
 		</dependency>
 
 	</dependencies>
-
-	<distributionManagement>
-		<repository>
-			<id>imyoyo-nexus</id>
-			<url>http://localhost:8080/nexus-webapp-1.9.2.4/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>imyoyo-nexus</id>
-			<url>http://localhost:8080/nexus-webapp-1.9.2.4/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
 
 </project>
