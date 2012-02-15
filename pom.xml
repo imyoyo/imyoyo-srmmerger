@@ -44,7 +44,7 @@
 
 		<dependency>
 			<groupId>net.imyoyo.thirdparty</groupId>
-			<artifactId>contest-applet</artifactId>
+			<artifactId>topcoder-plugin-interface</artifactId>
 			<version>1.0</version>
 		</dependency>
 
